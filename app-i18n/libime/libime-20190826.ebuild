@@ -4,7 +4,7 @@
 EAPI="6"
 
 inherit cmake-utils gnome2-utils xdg-utils git-r3
-EGIT_REPO_URI="https://github.com/fcitx/libime.git"
+EGIT_REPO_URI="https://github.com/0x1un/libime.git"
 
 if [[ ! "${PV}" =~ (^|\.)9999$ ]]; then
 	EGIT_COMMIT="32541593515f45e76f75831e324a5f20b7ffba94"
